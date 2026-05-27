@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+li {
+    list-style-type: none;
+    transition: transform 0.3s ease;
+}
+
+li:hover {
+    transform: scale(1.2);
+}
+
+ul {
+    display: flex;
+    gap: 40px;
+    padding: 20px;
+    background-color: #000000;
+    justify-content: center;
+}
+
+.dashboard {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+}
+
+body {
+    padding-top: 60px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+img {
+    width: 750px;
+    height: 450px;
+    object-fit: cover;
+}
+
+.product-card button {
+    border-radius: 10px;
+    padding: 5px;
+    transition: transform 0.3s ease;
+    background-color: gold;
+    border: gold;
+    cursor: pointer;
+}
+
+.product-card button:hover {
+    transform: scale(1.2);
+}
+
+.product-card button:active {
+    transform: scale(0.95);
+}
+
+
+.button1 {
+    border-radius: 20px;
+    background-color: goldenrod;
+    width: 120px;
+    height: 40px;
+}
+
+.button-name {
+    display: flex;
+    justify-content: center;
+}
+
+.Home p {
+    text-align: center;
+}
+
+button:hover {
+    transform: scale(1.2);
+}
+
+button {
+    transition: transform 0.3s ease;
+    border: none;
+}
+
+body {
+    background: url("img1.png");
+    width: 100%;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.Home {
+    padding: 15px;
+}
