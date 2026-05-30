@@ -90,7 +90,7 @@ button {
 }
 
 body {
-    background: url("img1.png");
+    background: url(image1.png);
     width: 100%;
     background-repeat: no-repeat;
     height: 100vh;
